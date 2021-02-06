@@ -1,0 +1,16 @@
+Index: lib/screens/registration_screen.dart
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/screens/registration_screen.dart	(revision 8bda4c1eb5f43d05d29671042046bfaf7cbdadbc)
++++ lib/screens/registration_screen.dart	(revision a1d4075da5119b3fccd41b6440f67daa02c71753)
+@@ -9,7 +9,7 @@
+   @override
+   Widget build(BuildContext context) {
+     return Scaffold(
+-      backgroundColor: Colors.white,
++      backgroundColor: Colors.white70,
+       body: Padding(
+         padding: EdgeInsets.symmetric(horizontal: 24.0),
+         child: Column(
