@@ -77,7 +77,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     }
                   },
                   text: 'Log In',
-                  colour: Colors.lightBlueAccent,
+                  colour: Colors.lightBlue,
                 ),
               ],
             ),
@@ -87,4 +87,3 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 }
-hihaiuhsk
