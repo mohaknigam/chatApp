@@ -45,7 +45,6 @@ class _ChatScreenState extends State<ChatScreen> {
           IconButton(
               icon: Icon(Icons.close),
               onPressed: () {
-                MessagesStream();
                 _auth.signOut();
                 Navigator.pop(context);
               }),
@@ -116,6 +115,8 @@ class MessagesStream extends StatelessWidget {
         for (var message in messages) {
           final messageText = message.data()['text'];
           final messageSender = message.data()['sender'];
+
+          final currentUser = loggedInUser.email;
 
           final currentUser = loggedInUser.email;
           if (currentUser == messageSender) {}
